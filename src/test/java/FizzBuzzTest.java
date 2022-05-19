@@ -47,7 +47,7 @@ class FizzBuzzTest {
     void shouldReturnFizzBuzzWithNumber15(){
         //Given
         int number = 15;
-        String expected = "FizzBuzz";
+        String expected = "FizzBuzz!";
 
         //When
         String actual = FizzBuzz.fizzbuzzer(number);
@@ -55,5 +55,6 @@ class FizzBuzzTest {
         assertEquals(expected,actual);
 
     }
+
 
 }
